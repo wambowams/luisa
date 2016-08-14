@@ -7,10 +7,31 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  // Vaading for Polymer in Angular 2
+  '@vaadin': 'vendor/@vaadin',
+  /* ngrx/router begin */
+  '@ngrx': 'vendor/@ngrx',
+  'path-to-regexp': 'vendor/path-to-regexp',
+  'isarray': 'vendor/isarray',
+  'query-string': 'vendor/query-string',
+  'strict-uri-encode': 'vendor/strict-uri-encode',
+  'object-assign': 'vendor/object-assign'
+  /* ngrx/router end */
 };
 
 /** User packages configuration. */
 const packages: any = {
+  // Vaading for Polymer in Angular 2
+  '@vaadin/angular2-polymer': { main: 'index.js', defaultExtension: 'js' },
+  /* ngrx/router begin */
+  '@ngrx/core': { main: 'index' },
+  '@ngrx/router': { main: 'index' },
+  'path-to-regexp': { main: 'index' },
+  'isarray': { main: 'index' },
+  'query-string': { main: 'index' },
+  'strict-uri-encode': { main: 'index' },
+  'object-assign': { main: 'index' }
+  /* ngrx/router end */
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -22,6 +43,7 @@ const barrels: string[] = [
   '@angular/core',
   '@angular/common',
   '@angular/compiler',
+  '@angular/forms',
   '@angular/http',
   '@angular/router',
   '@angular/platform-browser',
@@ -33,6 +55,10 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/menu',
+  'app/list',
+  'app/countdown',
+  'app/login',
   /** @cli-barrel */
 ];
 
