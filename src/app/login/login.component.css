@@ -1,0 +1,22 @@
+.big {
+  --iron-icon-height: 64px;
+  --iron-icon-width: 64px;
+}
+
+.login-container {
+  margin-top: 48px;
+}
+
+paper-card {
+  width: 80%;
+}
+
+#icon-container {
+  text-align: center;
+}
+
+.card-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

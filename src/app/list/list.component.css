@@ -1,0 +1,27 @@
+:host {
+  display: block;
+  height: auto;
+}
+
+paper-card {
+  width: 80%;
+  margin: 20px 0;
+}
+
+google-map {
+  height: 160px;
+}
+
+.card-content {
+  padding: 0;
+}
+
+.content {
+  padding: 16px;
+}
+
+paper-fab {
+  position: fixed;
+  bottom: 32px;
+  right: 16px;
+}

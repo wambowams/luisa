@@ -10,9 +10,22 @@ html, body {
   flex-direction: row;
 }
 
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
 .center-center {
   align-items: center;
   justify-content: center;
+}
+
+.center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
 }
 
 .fullbleed {
