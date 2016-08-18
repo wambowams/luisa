@@ -24,8 +24,10 @@ module.exports = function(defaults) {
       'isarray/*.+(js|js.map)',
       'query-string/*.+(js|js.map)',
       'strict-uri-encode/*.+(js|js.map)',
-      'object-assign/*.+(js|js.map)'
+      'object-assign/*.+(js|js.map)',
       /* ngrx/router end */
+      // Google Maps
+      'angular2-google-maps/**/*.+(js|js.map)'
     ]
   });
 };

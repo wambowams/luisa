@@ -15,8 +15,10 @@ const map: any = {
   'isarray': 'vendor/isarray',
   'query-string': 'vendor/query-string',
   'strict-uri-encode': 'vendor/strict-uri-encode',
-  'object-assign': 'vendor/object-assign'
+  'object-assign': 'vendor/object-assign',
   /* ngrx/router end */
+  // Google Maps
+  'angular2-google-maps': 'vendor/angular2-google-maps'
 };
 
 /** User packages configuration. */
@@ -30,8 +32,10 @@ const packages: any = {
   'isarray': { main: 'index' },
   'query-string': { main: 'index' },
   'strict-uri-encode': { main: 'index' },
-  'object-assign': { main: 'index' }
+  'object-assign': { main: 'index' },
   /* ngrx/router end */
+  // Google Maps
+  'angular2-google-maps/core': {defaultExtension: 'js', main: 'index.js'}
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////

@@ -23,6 +23,7 @@
     "@ngrx/core": "^1.0.1",
     "@ngrx/router": "^1.0.0-beta.1",
     "@vaadin/angular2-polymer": "^1.0.0-beta1",
+    "angular2-google-maps": "^0.13.0",
     "es6-shim": "0.35.1",
     "isarray": "^1.0.0",
     "object-assign": "^4.1.0",
